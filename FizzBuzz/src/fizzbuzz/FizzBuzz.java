@@ -17,10 +17,10 @@ public class FizzBuzz {
     // Makes for loop to write numbers 1-100
     for(int x = 1; x <= 100; x++)
     {
-        // Looks to see if the number is divisible by 3
+        // Looks to see if the number is divisible by 3 and 5
         if(x % 3 == 0 && x % 5 == 0)
         {
-            // Prints Fizz if the number is divisible by 3
+            // Prints Fizz if the number is divisible by 3 and 5
             System.out.println("FizzBuzz");
         }
         // Checks to see if the number is divisible by 5
