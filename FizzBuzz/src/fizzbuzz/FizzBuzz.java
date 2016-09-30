@@ -7,16 +7,34 @@ package fizzbuzz;
 
 /**
  *
- * @author Mr. T - CHANGE TO YOUR NAME
+ * @author Emmett Berger
  * @class AP CSA
  */
 public class FizzBuzz {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
     
+    for(int x = 1; x <= 100; x++)
+    {
+        if(x % 3 == 0)
+        {
+            System.out.println("Fizz");
+            if(x % 5 == 0)
+            {
+            System.out.println("FizzBuzz");
+            }
+        }
+        
+        else if(x % 5 == 0)
+        {
+            System.out.println("Buzz");
+        }
+        else
+        {
+            System.out.println(x);
+        }
+    }
+   }  
 }
+    
+
